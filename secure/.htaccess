@@ -1,0 +1,3 @@
+Options -Indexes
+DirectoryIndex unlock.php
+# unlock.php and lib.php are meant to be called directly (they gate themselves)

@@ -1,0 +1,6 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Serve sw.js requests via sw.php (keeps URL as /p/sw.js)
+  RewriteRule ^sw\.js$ sw.php [L,QSA]
+</IfModule>
